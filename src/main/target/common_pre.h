@@ -146,9 +146,9 @@
 #define USE_PPM
 #define USE_SERIAL_RX
 #define USE_SERIALRX_CRSF       // Team Black Sheep Crossfire protocol
-#define USE_SERIALRX_IBUS       // FlySky and Turnigy receivers
-#define USE_SERIALRX_SBUS       // Frsky and Futaba receivers
-#define USE_SERIALRX_SPEKTRUM   // SRXL, DSM2 and DSMX protocol
+//#define USE_SERIALRX_IBUS       // FlySky and Turnigy receivers
+//#define USE_SERIALRX_SBUS       // Frsky and Futaba receivers
+//#define USE_SERIALRX_SPEKTRUM   // SRXL, DSM2 and DSMX protocol
 #define USE_SERIALRX_SUMD       // Graupner Hott protocol
 
 #if (FLASH_SIZE > 128)
@@ -160,15 +160,15 @@
 #endif
 
 #if (FLASH_SIZE > 64)
-#define USE_ACRO_TRAINER
+//#define USE_ACRO_TRAINER
 #define USE_BLACKBOX
 #define USE_CLI_BATCH
 #define USE_RESOURCE_MGMT
 #define USE_RUNAWAY_TAKEOFF     // Runaway Takeoff Prevention (anti-taz)
 #define USE_SERVOS
 #define USE_TELEMETRY
-#define USE_TELEMETRY_FRSKY_HUB
-#define USE_TELEMETRY_SMARTPORT
+//#define USE_TELEMETRY_FRSKY_HUB
+//#define USE_TELEMETRY_SMARTPORT
 #endif
 
 #if (FLASH_SIZE > 128)
@@ -199,27 +199,30 @@
 #define USE_ESC_SENSOR
 #define USE_SERIAL_4WAY_BLHELI_BOOTLOADER
 #define USE_RCDEVICE
-#endif
-
-#if ((FLASH_SIZE > 256) || (FEATURE_CUT_LEVEL < 9))
+//#endif
+#define USE_LAUNCH_CONTROL
+#define USE_DYN_LPF
+#define USE_THROTTLE_BOOST
+#define USE_ITERM_RELAX
+#define USE_RC_SMOOTHING_FILTER
+//#if ((FLASH_SIZE > 256) || (FEATURE_CUT_LEVEL < 9))
 #define USE_GYRO_LPF2
 #endif
 
 #if ((FLASH_SIZE > 256) || (FEATURE_CUT_LEVEL < 8))
-#define USE_LAUNCH_CONTROL
-#define USE_DYN_LPF
+//#define USE_LAUNCH_CONTROL
+//#define USE_DYN_LPF
 #define USE_D_MIN
 #endif
 
 #if ((FLASH_SIZE > 256) || (FEATURE_CUT_LEVEL < 7))
-#define USE_THROTTLE_BOOST
+//#define USE_THROTTLE_BOOST
 #define USE_INTEGRATED_YAW_CONTROL
 #endif
 
 #if ((FLASH_SIZE > 256) || (FEATURE_CUT_LEVEL < 6))
-#define USE_ITERM_RELAX
-#define USE_RC_SMOOTHING_FILTER
-#define USE_THRUST_LINEARIZATION
+//#define USE_RC_SMOOTHING_FILTER
+//#define USE_THRUST_LINEARIZATION
 #define USE_TPA_MODE
 #endif
 
@@ -300,4 +303,3 @@
 // Re-enable this after 4.0 has been released, and remove the define from STM32F4DISCOVERY
 //#define USE_VTX_TABLE
 #endif
-
