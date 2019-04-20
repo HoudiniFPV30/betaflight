@@ -190,7 +190,7 @@
 #define USE_VTX_COMMON
 #define USE_VTX_CONTROL
 #define USE_VTX_SMARTAUDIO
-#define USE_VTX_TRAMP
+//#define USE_VTX_TRAMP
 //#endif
 
 //#if ((FLASH_SIZE > 256) || (FEATURE_CUT_LEVEL < 10))
@@ -294,13 +294,13 @@
 //#define USE_VARIO
 //#define USE_RX_LINK_QUALITY_INFO
 #define USE_ESC_SENSOR_TELEMETRY
-#define USE_OSD_PROFILES
+//#define USE_OSD_PROFILES
 //#define USE_OSD_STICK_OVERLAY
 //#define USE_ESCSERIAL_SIMONK
 //#define USE_SERIAL_4WAY_SK_BOOTLOADER
 #define USE_CMS_FAILSAFE_MENU
 //#define USE_SMART_FEEDFORWARD
-#define USE_TELEMETRY_SENSORS_DISABLED_DETAILS
+//#define USE_TELEMETRY_SENSORS_DISABLED_DETAILS
 // Re-enable this after 4.0 has been released, and remove the define from STM32F4DISCOVERY
 //#define USE_VTX_TABLE
 #endif
