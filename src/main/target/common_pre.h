@@ -177,7 +177,7 @@
 #define USE_DSHOT_DMAR
 #define USE_SERIALRX_FPORT      // FrSky FPort
 #define USE_TELEMETRY_CRSF
-#define USE_TELEMETRY_SRXL
+//#define USE_TELEMETRY_SRXL
 
 //#if ((FLASH_SIZE > 256) || (FEATURE_CUT_LEVEL < 12))
 #define USE_CMS
@@ -200,7 +200,7 @@
 #define USE_SERIAL_4WAY_BLHELI_BOOTLOADER
 #define USE_RCDEVICE
 //#endif
-#define USE_LAUNCH_CONTROL
+//#define USE_LAUNCH_CONTROL
 #define USE_DYN_LPF
 #define USE_D_MIN
 #define USE_THROTTLE_BOOST
@@ -269,7 +269,7 @@
 //#endif // FLASH_SIZE > 128
 
 //#if (FLASH_SIZE > 256)
-#define USE_AIRMODE_LPF
+//#define USE_AIRMODE_LPF
 //#define USE_DASHBOARD
 //#define USE_GPS
 //#define USE_GPS_NMEA
@@ -292,7 +292,7 @@
 //#define USE_HOTT_TEXTMODE
 //#define USE_LED_STRIP_STATUS_MODE
 //#define USE_VARIO
-#define USE_RX_LINK_QUALITY_INFO
+//#define USE_RX_LINK_QUALITY_INFO
 #define USE_ESC_SENSOR_TELEMETRY
 #define USE_OSD_PROFILES
 //#define USE_OSD_STICK_OVERLAY
