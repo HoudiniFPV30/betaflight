@@ -165,7 +165,7 @@
 #define USE_CLI_BATCH
 #define USE_RESOURCE_MGMT
 #define USE_RUNAWAY_TAKEOFF     // Runaway Takeoff Prevention (anti-taz)
-#define USE_SERVOS
+//#define USE_SERVOS
 #define USE_TELEMETRY
 //#define USE_TELEMETRY_FRSKY_HUB
 //#define USE_TELEMETRY_SMARTPORT
@@ -269,7 +269,7 @@
 //#endif // FLASH_SIZE > 128
 
 //#if (FLASH_SIZE > 256)
-//#define USE_AIRMODE_LPF
+#define USE_AIRMODE_LPF
 //#define USE_DASHBOARD
 //#define USE_GPS
 //#define USE_GPS_NMEA
